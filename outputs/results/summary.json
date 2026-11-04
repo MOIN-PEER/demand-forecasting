@@ -1,0 +1,113 @@
+{
+  "data": {
+    "stores": 10,
+    "products": 30,
+    "rows": 324550,
+    "days": 1096,
+    "units": 13283348,
+    "revenue_gbp": 21431529.0,
+    "stockout_rate_pct": 1.59,
+    "promo_rate_pct": 10.7
+  },
+  "backtest": {
+    "folds": 6,
+    "horizon_days": 28,
+    "evaluated_rows": 49296
+  },
+  "wape_pct": {
+    "naive": 45.3,
+    "moving_avg": 37.2,
+    "holt_winters": 34.6,
+    "lgbm": 27.4,
+    "oracle": 26.7
+  },
+  "bias_pct": {
+    "naive": -1.0,
+    "moving_avg": -0.8,
+    "holt_winters": -7.3,
+    "lgbm": -1.3,
+    "oracle": 0.5
+  },
+  "lgbm_improvement_vs_naive_pct": 39.5,
+  "lgbm_improvement_vs_best_baseline_pct": 20.8,
+  "hierarchy_lgbm_wape_pct": {
+    "Store \u00d7 product \u00d7 day": 27.4,
+    "Product \u00d7 day (chain)": 9.8,
+    "Store \u00d7 day": 6.4,
+    "Chain \u00d7 day": 2.4,
+    "Store \u00d7 product \u00d7 week": 11.7
+  },
+  "intervals": {
+    "q10_q90_coverage_pct": 76.0,
+    "share_below": {
+      "10": 15.8,
+      "50": 52.3,
+      "75": 75.5,
+      "90": 89.5
+    },
+    "pinball": {
+      "10": 2.255,
+      "50": 5.951,
+      "75": 5.14,
+      "90": 3.076
+    }
+  },
+  "promo_wape_pct": {
+    "wape_lgbm": {
+      "0": 27.3,
+      "1": 27.86
+    },
+    "wape_naive": {
+      "0": 44.59,
+      "1": 48.76
+    }
+  },
+  "inventory": {
+    "Last week's sales (naive)": {
+      "fill_rate_pct": 81.2,
+      "waste_pct_of_ordered": 20.0,
+      "waste_cost_gbp": 186521.0,
+      "lost_margin_gbp": 191964.0,
+      "net_profit_gbp": 532997.0,
+      "mismatch_cost_gbp": 458205.0,
+      "mismatch_vs_naive_pct": 0.0
+    },
+    "4-week average": {
+      "fill_rate_pct": 84.5,
+      "waste_pct_of_ordered": 16.1,
+      "waste_cost_gbp": 144804.0,
+      "lost_margin_gbp": 159961.0,
+      "net_profit_gbp": 606716.0,
+      "mismatch_cost_gbp": 371072.0,
+      "mismatch_vs_naive_pct": -19.0
+    },
+    "LightGBM average forecast": {
+      "fill_rate_pct": 87.7,
+      "waste_pct_of_ordered": 11.6,
+      "waste_cost_gbp": 98468.0,
+      "lost_margin_gbp": 123856.0,
+      "net_profit_gbp": 689157.0,
+      "mismatch_cost_gbp": 273367.0,
+      "mismatch_vs_naive_pct": -40.3
+    },
+    "LightGBM + target service level": {
+      "fill_rate_pct": 90.8,
+      "waste_pct_of_ordered": 15.3,
+      "waste_cost_gbp": 134122.0,
+      "lost_margin_gbp": 93639.0,
+      "net_profit_gbp": 683720.0,
+      "mismatch_cost_gbp": 267211.0,
+      "mismatch_vs_naive_pct": -41.7
+    }
+  },
+  "top_features": {
+    "mean_28": 42.45,
+    "same_dow_mean": 22.01,
+    "mean_7": 18.05,
+    "discount": 3.76,
+    "sku": 2.58,
+    "mean_91": 2.46,
+    "on_promo": 1.57,
+    "dow": 1.07
+  }
+}

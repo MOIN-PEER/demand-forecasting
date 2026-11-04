@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# The full dataset (~25 MB) is regenerated in seconds with: python -m demand_forecasting data
+data/raw/

@@ -1,0 +1,45 @@
+product,waste_cost,lost_margin,profit,policy
+Bananas (each),5392.128,4700.0,22845.372000000003,Last week's sales (naive)
+Beef burgers 4 pack,16999.280000000002,20001.3,23928.969999999998,Last week's sales (naive)
+Chicken breast 600g,45362.72,31122.3,59148.27999999999,Last week's sales (naive)
+Croissants 4 pack,11674.880000000001,12272.699999999999,26690.919999999995,Last week's sales (naive)
+Pork sausages 8 pack,13562.88,19076.399999999998,44296.32,Last week's sales (naive)
+Salad bag 120g,5155.584,10766.920000000002,26356.536000000004,Last week's sales (naive)
+Semi-skimmed milk 2L,23993.96,26177.899999999998,120446.84,Last week's sales (naive)
+Soda farls 4 pack,5881.040000000001,14676.099999999999,41311.80999999999,Last week's sales (naive)
+Strawberries 400g,34568.560000000005,14664.0,23789.839999999997,Last week's sales (naive)
+White sliced bread 800g,11330.624,22196.380000000005,94828.89600000001,Last week's sales (naive)
+Wholemeal bread 800g,12599.44,16309.800000000001,49352.810000000005,Last week's sales (naive)
+Bananas (each),3860.928,3785.9,25290.672000000002,4-week average
+Beef burgers 4 pack,21662.760000000002,13945.8,25320.989999999994,4-week average
+Chicken breast 600g,26636.480000000003,27358.649999999998,81638.17,4-week average
+Croissants 4 pack,7102.080000000001,11999.899999999998,31536.519999999993,4-week average
+Pork sausages 8 pack,9453.12,16854.0,50628.479999999996,4-week average
+Salad bag 120g,7578.24,7578.880000000001,27121.920000000006,4-week average
+Semi-skimmed milk 2L,20092.88,21102.199999999997,129423.62,4-week average
+Soda farls 4 pack,3736.4800000000005,13904.299999999997,44228.16999999999,4-week average
+Strawberries 400g,24282.960000000003,11365.199999999999,37374.24,4-week average
+White sliced bread 800g,12812.672,18401.11,97142.11800000002,4-week average
+Wholemeal bread 800g,7585.76,13665.45,57010.840000000004,4-week average
+Bananas (each),3169.056,3226.1000000000004,26542.344,LightGBM average forecast
+Beef burgers 4 pack,11552.880000000001,13605.9,35770.77,LightGBM average forecast
+Chicken breast 600g,22079.2,16367.999999999998,97186.09999999999,LightGBM average forecast
+Croissants 4 pack,5380.4800000000005,8654.8,36603.219999999994,LightGBM average forecast
+Pork sausages 8 pack,8500.8,11066.4,57368.399999999994,LightGBM average forecast
+Salad bag 120g,4173.696,5821.180000000001,32284.164000000008,LightGBM average forecast
+Semi-skimmed milk 2L,13840.36,16864.399999999998,139913.94,LightGBM average forecast
+Soda farls 4 pack,3975.8400000000006,9814.099999999999,48079.009999999995,LightGBM average forecast
+Strawberries 400g,11064.560000000001,12686.4,49271.439999999995,LightGBM average forecast
+White sliced bread 800g,8868.48,14950.400000000001,104537.02000000002,LightGBM average forecast
+Wholemeal bread 800g,5862.64,10798.400000000001,61601.01000000001,LightGBM average forecast
+Bananas (each),4153.824,2567.8,26215.876,LightGBM + target service level
+Beef burgers 4 pack,15352.04,11696.849999999999,33880.659999999996,LightGBM + target service level
+Chicken breast 600g,23474.88,15823.5,96334.92,LightGBM + target service level
+Croissants 4 pack,9329.920000000002,5089.7,36218.87999999999,LightGBM + target service level
+Pork sausages 8 pack,11895.36,8163.599999999999,56876.64,LightGBM + target service level
+Salad bag 120g,7229.568,3428.600000000001,31620.872000000007,LightGBM + target service level
+Semi-skimmed milk 2L,16959.4,14354.9,139304.4,LightGBM + target service level
+Soda farls 4 pack,7047.040000000001,5853.949999999999,48967.95999999999,LightGBM + target service level
+Strawberries 400g,15548.000000000002,9571.199999999999,47903.2,LightGBM + target service level
+White sliced bread 800g,13884.032000000001,9704.62,104767.24800000002,LightGBM + target service level
+Wholemeal bread 800g,9248.4,7383.950000000001,61629.700000000004,LightGBM + target service level

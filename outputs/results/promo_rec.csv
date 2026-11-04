@@ -1,0 +1,28 @@
+sku,product,category,true_uplift,model_uplift
+P01,White sliced bread 800g,Bakery,1.429,1.439
+P02,Wholemeal bread 800g,Bakery,1.661,1.75
+P03,Soda farls 4 pack,Bakery,1.617,1.619
+P04,Croissants 4 pack,Bakery,2.032,2.079
+P05,Bananas (each),Fresh produce,1.563,1.557
+P06,Strawberries 400g,Fresh produce,2.068,2.191
+P07,Salad bag 120g,Fresh produce,1.778,1.83
+P08,Potatoes 2.5kg,Fresh produce,1.687,1.773
+P09,Semi-skimmed milk 2L,Dairy,1.408,1.367
+P10,Natural yoghurt 500g,Dairy,1.883,2.0
+P11,Cheddar 400g,Dairy,2.521,2.428
+P12,Oat drink 1L,Dairy,1.828,1.89
+P13,Vanilla ice cream 2L,Frozen,2.31,2.471
+P14,Frozen peas 1kg,Frozen,1.61,1.711
+P15,Frozen pizza,Frozen,2.001,1.966
+P16,Beef burgers 4 pack,Meat,2.284,2.389
+P17,Chicken breast 600g,Meat,1.842,1.835
+P18,Pork sausages 8 pack,Meat,1.73,1.74
+P19,Tomato soup 400g,Ambient,1.882,1.891
+P20,Pasta 500g,Ambient,1.711,1.727
+P21,Tea bags 80,Ambient,2.458,2.204
+P22,Breakfast cereal 500g,Ambient,1.951,1.933
+P24,Still water 6x500ml,Drinks,1.753,1.879
+P25,Cola 2L,Drinks,2.812,2.639
+P26,Orange juice 1L,Drinks,2.155,2.159
+P29,Specialty blue cheese 150g,Dairy,1.668,1.623
+P30,Washing-up liquid 450ml,Household,2.297,2.223

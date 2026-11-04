@@ -1,0 +1,6 @@
+model,key,wape_pct,bias_pct,mae,rmse
+Seasonal naive,naive,45.3,-1.0,19.47,33.14
+4-week average,moving_avg,37.2,-0.8,15.99,26.34
+Holt-Winters (ETS),holt_winters,34.6,-7.3,14.89,25.56
+LightGBM,lgbm,27.4,-1.3,11.78,19.2
+Best possible (true mean),oracle,26.7,0.5,11.49,18.56

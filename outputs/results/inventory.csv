@@ -1,0 +1,5 @@
+policy,ordered,demand,sold,waste_units,lost_units,fill_rate_pct,waste_pct_of_ordered,waste_cost_gbp,lost_margin_gbp,gross_margin_gbp,net_profit_gbp,mismatch_cost_gbp,profit_vs_naive_gbp,mismatch_vs_naive_pct
+Last week's sales (naive),1292024,1272127,1033246,258778,238881,81.2,20.0,186521.0,191964.0,719518.0,532997.0,458205.0,0.0,0.0
+4-week average,1280795,1272127,1074798,205997,197329,84.5,16.1,144804.0,159961.0,751520.0,606716.0,371072.0,73719.0,-19.0
+LightGBM average forecast,1261625,1272127,1115827,145798,156300,87.7,11.6,98468.0,123856.0,787625.0,689157.0,273367.0,156160.0,-40.3
+LightGBM + target service level,1363971,1272127,1155459,208512,116668,90.8,15.3,134122.0,93639.0,817843.0,683720.0,267211.0,150723.0,-41.7
